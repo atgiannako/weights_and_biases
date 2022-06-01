@@ -18,8 +18,6 @@ Weights and biases `wandb` is a library for experiment tracking, metric logging 
     docker stop wandb-local
     docker run --rm -d -v wandb:/vol -p 8080:8080 --name wandb-local wandb/local
 
-Locally use: `docker run --rm -d -v /Users/thanos/Documents/projects/weights_and_biases/src/wandb:/vol -p 8080:8080 --name wandb-local wandb/local`
-
 ## License and API key
 In order to run `wandb` locally with docker, you need to create a license and get an API key. Read more from the official [documentation](https://docs.wandb.ai/guides/self-hosted/local#login).
 
